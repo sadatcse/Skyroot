@@ -1,7 +1,7 @@
 🏗️ Skyroot Real Estate
 Skyroot is a modern, high-performance real estate platform built with React 19, Vite, and Tailwind CSS 4. It features smooth animations with Framer Motion, a powerful AI assistant powered by Google Gemini, and a responsive UI using DaisyUI.
 
-🔗 Live Demo: https://skyroot-eight.vercel.app/
+🔗 Live Demo: https://skyroot-two.vercel.app/
 
 🚀 Step-by-Step Setup
 Follow these instructions to get the project running on your local machine.
@@ -17,7 +17,7 @@ npm (comes with Node)
 Open your terminal and run:
 
 Bash
-git clone https://github.com/AtiqurRahmanAtik/SKYROOT.git
+git clone https://github.com/sadatcse/Skyroot.git
 cd SKYROOT
 3. Install Dependencies
 Install all required libraries, including React 19 and Tailwind 4:
