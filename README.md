@@ -17,8 +17,8 @@ npm (comes with Node)
 Open your terminal and run:
 
 Bash
-git clone <your-repo-url>
-cd SKYROOT-FRONT
+git clone https://github.com/AtiqurRahmanAtik/SKYROOT.git
+cd SKYROOT
 3. Install Dependencies
 Install all required libraries, including React 19 and Tailwind 4:
 
