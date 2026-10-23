@@ -1,13 +1,22 @@
 import { motion } from 'motion/react';
 import { Shield, Zap, Users, Globe, Award, Target, Briefcase, CheckCircle } from 'lucide-react';
 import SEO from '../components/SEO';
+import mdPhoto from '../assets/Team/shahed-al-mamun.jpg';
 
 export const About = () => {
   return (
     <div className="min-h-screen bg-white overflow-hidden">
-      <SEO title="About Us" description="Learn about Skyroot Real Estate. Building legacies and crafting dreams since 2008." />
+      <SEO title="About Us" description="Learn about Skyroot Real Estate Ltd. Building legacies and crafting dreams since 2008." />
       {/* Hero Section */}
       <section className="relative py-32 lg:py-48 bg-neutral text-white overflow-hidden">
+        {/* Header background: drop the image at public/headers/about.jpg (falls back to solid colour) */}
+        <img
+          src="/headers/about.jpg"
+          alt=""
+          onError={(e) => { e.currentTarget.style.display = 'none'; }}
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-neutral/75" />
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full blur-[150px] translate-x-1/2 -translate-y-1/2"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600 rounded-full blur-[150px] -translate-x-1/2 translate-y-1/2"></div>
@@ -51,7 +60,7 @@ export const About = () => {
             <h2 className="text-4xl font-bold text-primary">Our Story</h2>
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                Founded in 2008, Skyroot Real Estate began with a singular vision: to bring world-class architectural standards to the heart of Dhaka. What started as a boutique firm has grown into a premier developer known for structural integrity and aesthetic finesse.
+                Founded in 2008, Skyroot Real Estate Ltd began with a singular vision: to bring world-class architectural standards to the heart of Dhaka. What started as a boutique firm has grown into a premier developer known for structural integrity and aesthetic finesse.
               </p>
               <p>
                 Over the past 18 years, we have successfully delivered over 50 landmark projects, each standing as a testament to our commitment to quality. From residential havens in Gulshan to commercial hubs in Banani, our footprint is etched in the city's skyline.
@@ -94,16 +103,16 @@ export const About = () => {
       <section className="bg-gray-50 py-24 px-6 lg:px-10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-white font-bold tracking-widest uppercase text-sm">Leadership</span>
+            <span className="text-gray-500 font-bold tracking-widest uppercase text-sm">Leadership</span>
             <h2 className="text-4xl font-bold text-primary mt-3">Guided by Visionaries</h2>
           </div>
 
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-100 flex flex-col lg:flex-row">
             <div className="lg:w-2/5 h-125 lg:h-auto relative">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
-                alt="Ar. Shahed Al Mamun"
-                className="w-full h-full object-cover"
+                src={mdPhoto}
+                alt="Ar. Shahed Al Mamun, Managing Director of Skyroot Real Estate Ltd"
+                className="w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent lg:hidden"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white lg:hidden">
@@ -115,7 +124,7 @@ export const About = () => {
             <div className="lg:w-3/5 p-10 md:p-16 flex flex-col justify-center space-y-8">
               <div className="hidden lg:block">
                 <h3 className="text-3xl font-bold text-neutral">Ar. Shahed Al Mamun</h3>
-                <p className="text-white font-medium text-lg">B.Arch (MIAB), Managing Director</p>
+                <p className="text-primary font-medium text-lg">B.Arch (MIAB), Managing Director</p>
               </div>
 
               <blockquote className="text-xl text-gray-600 italic leading-relaxed border-l-4 border-primary pl-6">

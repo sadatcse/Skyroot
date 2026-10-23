@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Linkedin, Instagram, Globe } from 'lucide-react';
-import Logo from '../assets/logo1.png';
+import Logo from '../assets/skyyroot-logo-dark.svg';
 
 const policyLinks = [
   { name: 'Terms of Use', path: '/termsOfUse' },
@@ -16,13 +16,19 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <img src={Logo} alt="Skyroot Real Estate" className="h-20 w-auto text-primary" />
+              <img src={Logo} alt="Skyroot Real Estate Ltd" className="h-28 w-auto" />
             </div>
             <p className="text-base-100/60 text-sm leading-relaxed">
               A premier corporate real estate developer dedicated to structural excellence and urban innovation. Setting the benchmark for over 15 years.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-2 bg-primary rounded-full hover:bg-primary transition-colors">
+              <a
+                href="https://www.facebook.com/SkyyrootRealEstate"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Skyroot Real Estate Ltd on Facebook"
+                className="p-2 bg-primary rounded-full hover:bg-white hover:text-primary transition-colors"
+              >
                 <Facebook className="w-4 h-4" />
               </a>
               <a href="#" className="p-2 bg-primary  rounded-full hover:bg-primary transition-colors">
@@ -49,15 +55,25 @@ export const Footer = () => {
             <ul className="space-y-4 text-base-100/60 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                <span>House 123, Road 45, Gulshan, Dhaka, Bangladesh</span>
+                <span>
+                  <span className="block text-white font-semibold">Aftab Nagar Branch</span>
+                  Sector 1, Road 4, House 12, Aftab Nagar, Dhaka - 1212, Bangladesh
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-primary shrink-0" />
+                <span>
+                  <span className="block text-white font-semibold">Mohammadpur Branch</span>
+                  Block C, Zakir Hossain Road, Mohammadpur, Dhaka - 1207, Bangladesh
+                </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <span>+880 1234 567890</span>
+                <a href="tel:+8801818100503" className="hover:text-white transition-colors">+88 01818-100 503</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <span>info@skyroot-realestate.com</span>
+                <a href="mailto:info@skyrootre.com" className="hover:text-white transition-colors">info@skyrootre.com</a>
               </li>
             </ul>
           </div>
@@ -83,7 +99,7 @@ export const Footer = () => {
         <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-base-100/60 text-xs">
             {/* Added dynamic year here as a bonus! */}
-            © {new Date().getFullYear()} Skyroot Real Estate. All rights reserved.
+            © {new Date().getFullYear()} Skyroot Real Estate Ltd. All rights reserved.
           </p>
           <div className="flex gap-8 text-xs text-base-100/60">
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

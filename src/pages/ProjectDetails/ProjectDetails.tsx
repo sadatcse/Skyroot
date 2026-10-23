@@ -29,6 +29,10 @@ export const ProjectDetails = () => {
     );
   }
 
+  const hasFeatures = !!project.features?.length;
+  const listItems = (hasFeatures ? project.features : project.services) ?? [];
+  const listTitle = hasFeatures ? 'Features' : 'Scope of Services';
+
   return (
     <section className="min-h-screen bg-white py-24 px-6 lg:px-10">
       <SEO title={project.title} description={project.description || `${project.title} detailed information.`} image={project.image} />
@@ -107,6 +111,12 @@ export const ProjectDetails = () => {
                   <span>{project.title}</span>
                 </div>
               )}
+              {project.client && (
+                <div className="grid grid-cols-[140px_auto] md:grid-cols-[180px_auto] gap-4">
+                  <span className="font-semibold text-primary">Client :</span>
+                  <span>{project.client}</span>
+                </div>
+              )}
               {project.location && (
                 <div className="grid grid-cols-[140px_auto] md:grid-cols-[180px_auto] gap-4">
                   <span className="font-semibold text-primary">Address :</span>
@@ -170,15 +180,15 @@ export const ProjectDetails = () => {
             </div>
           </div>
 
-          {/* RIGHT COLUMN: FEATURES */}
-          {project.features && project.features.length > 0 && (
+          {/* RIGHT COLUMN: FEATURES (or scope of services for consultancy projects) */}
+          {listItems.length > 0 && (
             <div>
               <h2 className="bg-primary text-white text-xl md:text-2xl font-bold uppercase tracking-widest py-4 px-6 mb-8">
-                Features
+                {listTitle}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-gray-700 font-semibold">
                 <ul className="space-y-3">
-                  {project.features.slice(0, Math.ceil(project.features.length / 2)).map((feature, idx) => (
+                  {listItems.slice(0, Math.ceil(listItems.length / 2)).map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></div>
                       {feature}
@@ -186,7 +196,7 @@ export const ProjectDetails = () => {
                   ))}
                 </ul>
                 <ul className="space-y-3 md:mt-0 mt-3">
-                  {project.features.slice(Math.ceil(project.features.length / 2)).map((feature, idx) => (
+                  {listItems.slice(Math.ceil(listItems.length / 2)).map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></div>
                       {feature}

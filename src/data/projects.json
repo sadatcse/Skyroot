@@ -1294,5 +1294,271 @@
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
     ]
+  },
+  {
+    "id": "c1",
+    "title": "Tarazul Islam Residence",
+    "location": "Chakdev Para, Naogaon",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/tarazul-islam-residence/01.jpg",
+    "description": "A 6 storied residential building for Mr. Tarazul Islam in Chakdev Para, Naogaon. The tower pairs a terracotta brick spine with cascading planted balconies, giving every floor its own green terrace.",
+    "client": "Mr. Tarazul Islam",
+    "landArea": "5 Decimal",
+    "buildingHeight": "6 Storied",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/tarazul-islam-residence/02.jpg",
+      "/projects/consultancy/tarazul-islam-residence/03.jpg"
+    ]
+  },
+  {
+    "id": "c2",
+    "title": "Kasim Residence",
+    "location": "Aftabnagar, Jahurul Islam City, Dhaka",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/kasim-residence/01.jpg",
+    "description": "A 10 storied building for Mr. Kasim in Aftabnagar, Jahurul Islam City. A glazed side wall and deep landscaped balconies on the main facade bring daylight and greenery into every apartment.",
+    "client": "Mr. Kasim",
+    "landArea": "8.25 Decimal",
+    "buildingHeight": "10 Storied",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/kasim-residence/02.jpg",
+      "/projects/consultancy/kasim-residence/03.jpg"
+    ]
+  },
+  {
+    "id": "c3",
+    "title": "Manzel Residence",
+    "location": "Aftabnagar, Badda, Dhaka",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/manzel-residence/01.jpg",
+    "description": "A (G+6) 07 storied residential building for Manzel Properties Ltd. in Aftabnagar, Badda. Brick and white volumes with hanging gardens on alternate floors soften the compact urban plot.",
+    "client": "Manzel Properties Ltd.",
+    "landArea": "3.5 Katha",
+    "buildingHeight": "G + 6 (07 Storied)",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/manzel-residence/02.jpg",
+      "/projects/consultancy/manzel-residence/03.jpg"
+    ]
+  },
+  {
+    "id": "c4",
+    "title": "FT Mahatab Tower",
+    "location": "Dak Bungalow Road, Naogaon",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/ft-mahatab-tower/01.jpg",
+    "description": "An ongoing G+8 storied residential building for F.T Properties Ltd. on Dak Bungalow Road, Naogaon. Construction is underway, with piling and foundation work shown in the gallery.",
+    "client": "F.T Properties Ltd.",
+    "landArea": "9.5 Katha",
+    "buildingHeight": "G + 8",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/ft-mahatab-tower/02.jpg",
+      "/projects/consultancy/ft-mahatab-tower/03.jpg",
+      "/projects/consultancy/ft-mahatab-tower/04.jpg",
+      "/projects/consultancy/ft-mahatab-tower/05.jpg",
+      "/projects/consultancy/ft-mahatab-tower/06.jpg"
+    ]
+  },
+  {
+    "id": "c5",
+    "title": "Kolpana Residence",
+    "location": "Sapahar, Naogaon",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/kolpana-residence/01.jpg",
+    "description": "An ongoing 5 storied residential building for Mrs. Kolpana in Sapahar, Naogaon. Angled concrete fins, perforated screens and a double-height planted courtyard define the design.",
+    "client": "Mrs. Kolpana",
+    "landArea": "8.25 Decimal",
+    "buildingHeight": "5 Storied",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/kolpana-residence/02.jpg",
+      "/projects/consultancy/kolpana-residence/03.jpg"
+    ]
+  },
+  {
+    "id": "c6",
+    "title": "Liton Residence Interior",
+    "location": "Murail, Bogra",
+    "type": "Interior Design",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/liton-residence-interior/01.jpg",
+    "description": "An ongoing residential interior design project for Mr. Liton in Murail, Bogra, covering 3900 sft of living, dining, family lounge and work spaces with warm timber ceilings and feature wall paneling.",
+    "client": "Mr. Liton",
+    "landArea": "3900 Sft (Total Area)",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/liton-residence-interior/02.jpg",
+      "/projects/consultancy/liton-residence-interior/03.jpg",
+      "/projects/consultancy/liton-residence-interior/04.jpg",
+      "/projects/consultancy/liton-residence-interior/05.jpg",
+      "/projects/consultancy/liton-residence-interior/06.jpg"
+    ]
+  },
+  {
+    "id": "c7",
+    "title": "Swapan Halder Residence",
+    "location": "Shebashram Road, Naogaon",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/swapan-halder-residence/01.jpg",
+    "description": "A B+G+8 residential building for Dr. Swapan Kumar Halder on Shebashram Road, Naogaon, combining a brick stair core with crisp white balconies and planters on every level.",
+    "client": "Dr. Swapan Kumar Halder",
+    "landArea": "8.26 Decimal",
+    "buildingHeight": "B + G + 8",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/swapan-halder-residence/02.jpg",
+      "/projects/consultancy/swapan-halder-residence/03.jpg"
+    ]
+  },
+  {
+    "id": "c8",
+    "title": "Naojoan Tower",
+    "location": "Muktir More, Naogaon",
+    "type": "Residential",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/naojoan-tower/01.jpg",
+    "description": "An ongoing G+9 storied residential development at Muktir More, Naogaon. Twin towers on a 21 katha site share a landscaped entrance plaza.",
+    "landArea": "21 Katha",
+    "buildingHeight": "G + 9",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/naojoan-tower/02.jpg",
+      "/projects/consultancy/naojoan-tower/03.jpg",
+      "/projects/consultancy/naojoan-tower/04.jpg",
+      "/projects/consultancy/naojoan-tower/05.jpg"
+    ]
+  },
+  {
+    "id": "c9",
+    "title": "A.R City Complex",
+    "location": "Opposite LGED Office, Main Road, Naogaon",
+    "type": "Mixed Use",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/ar-city-complex/01.jpg",
+    "description": "A B+G+8 storied mixed use building opposite the LGED office on Main Road, Naogaon, with a glass-fronted commercial wing, residential block, rooftop gardens, a swimming pool and a shaded pergola walkway.",
+    "landArea": "28 Katha",
+    "buildingHeight": "B + G + 8",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/ar-city-complex/02.jpg",
+      "/projects/consultancy/ar-city-complex/03.jpg",
+      "/projects/consultancy/ar-city-complex/04.jpg"
+    ]
+  },
+  {
+    "id": "c10",
+    "title": "Raju Ahmed Complex",
+    "location": "Hospital Road, Naogaon Sadar",
+    "type": "Mixed Use",
+    "status": "Consultancy",
+    "image": "/projects/consultancy/raju-ahmed-complex/01.jpg",
+    "description": "An ongoing 07 storied mixed use building for Mr. Raju Ahmed on Hospital Road, Naogaon Sadar, with a hospital at the base and a brick-and-screen facade above.",
+    "client": "Mr. Raju Ahmed",
+    "landArea": "5 Katha",
+    "buildingHeight": "07 Storied",
+    "consultant": "DOT. Arch View",
+    "services": [
+      "Architecture",
+      "Engineering",
+      "Interior Design",
+      "Planning",
+      "Landscape Design",
+      "Construction",
+      "Project Management"
+    ],
+    "additionalImages": [
+      "/projects/consultancy/raju-ahmed-complex/02.jpg",
+      "/projects/consultancy/raju-ahmed-complex/03.jpg"
+    ]
   }
 ]

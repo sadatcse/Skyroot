@@ -182,7 +182,7 @@ export const Contact = () => {
                 </div>
                 <h3 className="font-bold text-lg text-neutral">Email Us</h3>
                 <p className="text-base-content/60 text-sm">Our team is here to help.</p>
-                <a href="mailto:info@skyrootre.com" className="block text-white font-bold hover:underline">info@skyrootre.com</a>
+                <a href="mailto:info@skyrootre.com" className="block text-primary font-bold hover:underline">info@skyrootre.com</a>
               </div>
             </div>
 
@@ -194,7 +194,7 @@ export const Contact = () => {
                   <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=200&q=80" alt="Office" className="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-neutral group-hover:text-white transition-colors">Aftab Nagar Branch</h4>
+                  <h4 className="font-bold text-lg text-neutral group-hover:text-primary transition-colors">Aftab Nagar Branch</h4>
                   <p className="text-base-content/60 text-sm mt-1">Sector 1, Road 4, House 12, Aftab Nagar, Dhaka - 1212, Bangladesh</p>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export const Contact = () => {
                   <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=200&q=80" alt="Office" className="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-neutral group-hover:text-white transition-colors">Mohammadpur Branch</h4>
+                  <h4 className="font-bold text-lg text-neutral group-hover:text-primary transition-colors">Mohammadpur Branch</h4>
                   <p className="text-base-content/60 text-sm mt-1">Block C, Zakir Hossain Road, Mohammadpur, Dhaka - 1207, Bangladesh</p>
                 </div>
               </div>

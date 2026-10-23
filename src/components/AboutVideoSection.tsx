@@ -7,7 +7,7 @@ const content = {
   bn: {
     subtitle: "আমাদের সম্পর্কে",
     title: "আপনার জীবনযাত্রার নতুন সংজ্ঞা",
-    p1: "স্কাইরুট রিয়েল এস্টেট ২০০৯ সালে প্রতিষ্ঠিত হয়, যার লক্ষ্য ছিল শক্তিশালী ব্র্যান্ড, নির্ভরযোগ্য পণ্য এবং বিস্তৃত পরিসরের সেবার মাধ্যমে মানুষের জীবনযাত্রার মান উন্নত করা। বাংলাদেশের ক্রমবর্ধমান রিয়েল এস্টেট খাতে মূল্য এবং উদ্ভাবনের সমন্বয় ঘটাতে একটি 'ড্রিম টিম' নিয়ে ২০১৫ সালে এটি রিয়েল এস্টেট খাতে প্রবেশ করে। নকশা, কাঠামোগত মাত্রা, স্থান ও সম্পদ সংরক্ষণের পাশাপাশি পরিবেশগত সুস্থতার ওপর উল্লেখযোগ্য মনোযোগ দেওয়ার মাধ্যমে আমরা আপনাকে আবাসিক ও বাণিজ্যিক আবাসনে সর্বোচ্চ সহায়তা প্রদান করি।",
+    p1: "স্কাইরুট রিয়েল এস্টেট লিমিটেড ২০০৯ সালে প্রতিষ্ঠিত হয়, যার লক্ষ্য ছিল শক্তিশালী ব্র্যান্ড, নির্ভরযোগ্য পণ্য এবং বিস্তৃত পরিসরের সেবার মাধ্যমে মানুষের জীবনযাত্রার মান উন্নত করা। বাংলাদেশের ক্রমবর্ধমান রিয়েল এস্টেট খাতে মূল্য এবং উদ্ভাবনের সমন্বয় ঘটাতে একটি 'ড্রিম টিম' নিয়ে ২০১৫ সালে এটি রিয়েল এস্টেট খাতে প্রবেশ করে। নকশা, কাঠামোগত মাত্রা, স্থান ও সম্পদ সংরক্ষণের পাশাপাশি পরিবেশগত সুস্থতার ওপর উল্লেখযোগ্য মনোযোগ দেওয়ার মাধ্যমে আমরা আপনাকে আবাসিক ও বাণিজ্যিক আবাসনে সর্বোচ্চ সহায়তা প্রদান করি।",
     p2: "বিভিন্ন ক্ষেত্রের দক্ষতাকে একত্রিত করে সমসাময়িক জীবনযাত্রার উৎকৃষ্ট উদাহরণ তৈরি করতে আমরা স্বাতন্ত্র্যমণ্ডিত সেবা প্রদান করি এবং কঠোরভাবে প্রজেক্ট হস্তান্তরের সময়সীমা মেনে চলি। সততা এবং বিশ্বস্ততার দিক থেকে ঢাকায় আপনার সবচেয়ে নির্ভরযোগ্য ডেভেলপার হওয়ার প্রতিশ্রুতি আমরা দিচ্ছি।",
     button: "আরও জানুন",
     videoTitle: "সর্ববৃহৎ ডেভেলপার",
@@ -16,7 +16,7 @@ const content = {
   en: {
     subtitle: "ABOUT US",
     title: "REDEFINING YOUR STANDARD OF LIVING",
-    p1: "Skyroot Real Estate was founded in 2009 with the aim to enhance aspects of life for people by providing powerful brands, reliable products and a wide range of services. It ventured into the real estate sector in 2015 with its 'dream team' dedicated to merge value and innovation in the evolving real estate sector of Bangladesh. Through considerable focus on design, structural dimension, and feasibility in the sense of space and resource conservation; as well as environmental soundness; we deliver you optimum support in residential and commercial accommodation.",
+    p1: "Skyroot Real Estate Ltd was founded in 2009 with the aim to enhance aspects of life for people by providing powerful brands, reliable products and a wide range of services. It ventured into the real estate sector in 2015 with its 'dream team' dedicated to merge value and innovation in the evolving real estate sector of Bangladesh. Through considerable focus on design, structural dimension, and feasibility in the sense of space and resource conservation; as well as environmental soundness; we deliver you optimum support in residential and commercial accommodation.",
     p2: "Conjoining the expertise of different fields to develop and bring in the quintessence of contemporary lifestyle, we provide distinguished services and strictly maintain project handover deadlines. We assure you to be your most reliable developer in Dhaka in terms of integrity and credibility.",
     button: "Learn More",
     videoTitle: "The Biggest Developer",
@@ -91,12 +91,12 @@ export const AboutVideoSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative aspect-video w-full group"
+            className="relative aspect-[9/16] w-full max-w-sm mx-auto group"
           >
             {!isPlaying ? (
               <div className="relative w-full h-full cursor-pointer overflow-hidden rounded-md shadow-lg" onClick={() => setIsPlaying(true)}>
                 <img
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80"
+                  src="/videos/skyroot-intro-poster.jpg"
                   alt="Skyroot Video Thumbnail"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -124,13 +124,15 @@ export const AboutVideoSection = () => {
                 </div>
               </div>
             ) : (
-              <iframe
-                className="w-full h-full rounded-md shadow-lg"
-                src="https://www.youtube.com/embed/tY_CyFmMDFE?autoplay=1&rel=0"
-                title="Skyroot Real Estate Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <video
+                className="w-full h-full object-cover rounded-md shadow-lg bg-black"
+                src="/videos/skyroot-intro.mp4"
+                poster="/videos/skyroot-intro-poster.jpg"
+                title="Skyroot Real Estate Ltd Video"
+                controls
+                autoPlay
+                playsInline
+              ></video>
             )}
           </motion.div>
         </div>

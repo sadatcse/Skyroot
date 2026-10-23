@@ -5,7 +5,7 @@ import { Menu, X } from 'lucide-react';
 import { cn } from '../lib/utils';
 // import Logo from '../assets/logo.svg';
 
-import Logo from '../assets/logo1.png';
+import Logo from '../assets/skyyroot-logo.svg';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -22,8 +22,13 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-base-100/80 backdrop-blur-md border-b border-base-content/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-3 group">
-          <img src={Logo} alt="Skyroot Real Estate" className="h-20 w-auto transition-transform group-hover:scale-105" />
+        <Link to="/" className="relative inline-block group transition-transform duration-300 hover:scale-105">
+          <img src={Logo} alt="Skyroot Real Estate Ltd" className="block h-20 w-auto" />
+          <span
+            aria-hidden="true"
+            className="logo-shine"
+            style={{ maskImage: `url("${Logo}")`, WebkitMaskImage: `url("${Logo}")` }}
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -72,8 +77,8 @@ export const Navbar = () => {
               to={link.path}
               onClick={() => setIsOpen(false)}
               className={cn(
-                "text-lg font-bold transition-colors",
-                location.pathname === link.path ? "text-white" : "text-neutral"
+                "text-lg font-bold transition-colors hover:text-primary",
+                location.pathname === link.path ? "text-primary" : "text-neutral"
               )}
             >
               {link.name}

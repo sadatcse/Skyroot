@@ -44,8 +44,16 @@ export const Projects = () => {
     <div className="min-h-screen bg-white">
       <SEO title="Our Portfolio" description="Discover Skyroot's commitment to architectural excellence and sustainable urban development through our diverse range of world-class residential and commercial projects." />
       {/* Page Header */}
-      <section className="bg-neutral py-24 px-6 lg:px-10">
-        <div className="max-w-7xl mx-auto">
+      <section className="relative bg-neutral py-24 px-6 lg:px-10 overflow-hidden">
+        {/* Header background: drop the image at public/headers/projects.jpg (falls back to solid colour) */}
+        <img
+          src="/headers/projects.jpg"
+          alt=""
+          onError={(e) => { e.currentTarget.style.display = 'none'; }}
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-neutral/90 via-neutral/80 to-neutral/60 md:via-neutral/70 md:to-neutral/30" />
+        <div className="max-w-7xl mx-auto relative z-10">
           <h1 className="text-5xl md:text-6xl font-black text-primary mb-6">Our Portfolio</h1>
           <p className="text-white/60 text-xl max-w-2xl leading-relaxed">
             Discover Skyroot's commitment to architectural excellence and sustainable urban development through our diverse range of world-class residential and commercial projects.
@@ -90,6 +98,7 @@ export const Projects = () => {
                 animate={{ opacity: 1, y: 0 }}
                 className="group relative aspect-3/4 overflow-hidden bg-neutral cursor-pointer"
               >
+                <Link to={`/project/${project.id}`} aria-label={project.title} className="absolute inset-0">
                 {/* Background Image */}
                 <img
                   src={project.image}
@@ -119,17 +128,11 @@ export const Projects = () => {
                   <h3 className="text-3xl font-black text-white uppercase leading-none mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-white/80 text-xs font-bold uppercase tracking-wider mb-8">
+                  <p className="text-white/80 text-xs font-bold uppercase tracking-wider">
                     {project.location}
                   </p>
-
-                  <Link
-                    to={`/project/${project.id}`}
-                    className="inline-block border bg-primary border-white/30 px-8 py-3 text-[10px] font-bold text-white uppercase tracking-[0.2em] hover:bg-neutral hover:text-white transition-colors duration-300"
-                  >
-                    Explore
-                  </Link>
                 </div>
+                </Link>
               </motion.div>
             ))
           )}
@@ -179,7 +182,7 @@ export const Projects = () => {
         <div className="bg-base-100 rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
           <div className="p-12 md:p-20 space-y-8">
             <div className="space-y-2">
-              <div className="text-white text-xs font-bold uppercase tracking-[0.2em]">Ongoing Flagship</div>
+              <div className="text-primary text-xs font-bold uppercase tracking-[0.2em]">Ongoing Flagship</div>
               <h2 className="text-4xl font-black text-neutral">Skyroot Horizon</h2>
             </div>
             <p className="text-base-content/70 leading-relaxed">
@@ -187,7 +190,7 @@ export const Projects = () => {
             </p>
             <div className="flex flex-wrap gap-8">
               <div className="flex items-center gap-3">
-                <MapPin className="text-white" />
+                <MapPin className="text-primary" />
                 <span className="font-bold text-neutral">Gulshan 2, Dhaka</span>
               </div>
               <div className="text-base-content/40">Est. Completion: 2026</div>
