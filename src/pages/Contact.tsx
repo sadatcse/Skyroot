@@ -3,7 +3,23 @@ import { motion } from 'motion/react';
 import { Send, Phone, Mail, MapPin, MessageSquare, CheckCircle, AlertCircle } from 'lucide-react';
 import SEO from '../components/SEO';
 
+const offices = [
+  {
+    name: 'Aftab Nagar Branch',
+    address: 'Sector 1, Road 4, House 12, Aftab Nagar, Dhaka - 1212, Bangladesh',
+    mapQuery: 'Aftab Nagar, Dhaka 1212, Bangladesh',
+    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    name: 'Mohammadpur Branch',
+    address: 'Block C, Zakir Hossain Road, Mohammadpur, Dhaka - 1207, Bangladesh',
+    mapQuery: 'Zakir Hossain Road, Block C, Mohammadpur, Dhaka 1207, Bangladesh',
+    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=200&q=80',
+  },
+];
+
 export const Contact = () => {
+  const [activeOffice, setActiveOffice] = React.useState(0);
   const [formData, setFormData] = React.useState({
     name: '',
     email: '',
@@ -182,47 +198,58 @@ export const Contact = () => {
                 </div>
                 <h3 className="font-bold text-lg text-neutral">Email Us</h3>
                 <p className="text-base-content/60 text-sm">Our team is here to help.</p>
-                <a href="mailto:info@skyrootre.com" className="block text-primary font-bold hover:underline">info@skyrootre.com</a>
+                <a href="mailto:info@skyyroot.com" className="block text-primary font-bold hover:underline">info@skyyroot.com</a>
               </div>
             </div>
 
             <div className="space-y-6">
               <h3 className="text-2xl font-black text-neutral">Our Offices</h3>
 
-              <div className="group bg-white p-6 rounded-2xl border border-base-content/5 hover:/30 transition-all shadow-sm flex gap-6">
-                <div className="w-20 h-20 rounded-xl overflow-hidden shrink-0">
-                  <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=200&q=80" alt="Office" className="w-full h-full object-cover" />
-                </div>
-                <div>
-                  <h4 className="font-bold text-lg text-neutral group-hover:text-primary transition-colors">Aftab Nagar Branch</h4>
-                  <p className="text-base-content/60 text-sm mt-1">Sector 1, Road 4, House 12, Aftab Nagar, Dhaka - 1212, Bangladesh</p>
-                </div>
-              </div>
-
-              <div className="group bg-white p-6 rounded-2xl border border-base-content/5 hover:border-primary transition-all shadow-sm flex gap-6">
-                <div className="w-20 h-20 rounded-xl overflow-hidden shrink-0">
-                  <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=200&q=80" alt="Office" className="w-full h-full object-cover" />
-                </div>
-                <div>
-                  <h4 className="font-bold text-lg text-neutral group-hover:text-primary transition-colors">Mohammadpur Branch</h4>
-                  <p className="text-base-content/60 text-sm mt-1">Block C, Zakir Hossain Road, Mohammadpur, Dhaka - 1207, Bangladesh</p>
-                </div>
-              </div>
+              {offices.map((office, i) => (
+                <button
+                  key={office.name}
+                  type="button"
+                  onClick={() => setActiveOffice(i)}
+                  aria-pressed={activeOffice === i}
+                  className={`group w-full text-left bg-white p-6 rounded-2xl border transition-all shadow-sm flex gap-6 ${
+                    activeOffice === i ? 'border-primary ring-2 ring-primary/15' : 'border-base-content/5 hover:border-primary'
+                  }`}
+                >
+                  <div className="w-20 h-20 rounded-xl overflow-hidden shrink-0">
+                    <img src={office.image} alt="Office" className="w-full h-full object-cover" />
+                  </div>
+                  <div>
+                    <h4 className={`font-bold text-lg transition-colors group-hover:text-primary ${activeOffice === i ? 'text-primary' : 'text-neutral'}`}>
+                      {office.name}
+                    </h4>
+                    <p className="text-base-content/60 text-sm mt-1">{office.address}</p>
+                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary mt-2">
+                      <MapPin className="w-3.5 h-3.5" /> {activeOffice === i ? 'Shown on map below' : 'View on map'}
+                    </span>
+                  </div>
+                </button>
+              ))}
             </div>
 
-            {/* Map Placeholder */}
-            <div className="relative h-[300px] rounded-3xl overflow-hidden border border-base-content/5 group">
-              <img
-                src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1000&q=80"
-                alt="Map"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            {/* Google Map of the selected office */}
+            <div className="relative h-[350px] rounded-3xl overflow-hidden border border-base-content/5 shadow-sm bg-gray-100">
+              <iframe
+                key={activeOffice}
+                title={`Map of ${offices[activeOffice].name}`}
+                src={`https://www.google.com/maps?q=${encodeURIComponent(offices[activeOffice].mapQuery)}&z=16&output=embed`}
+                className="w-full h-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-neutral/60 to-transparent flex items-end p-8">
-                <div className="flex items-center gap-3 text-white">
-                  <MapPin className="text-white" />
-                  <span className="font-bold uppercase tracking-widest text-sm">Dhaka Headquarters</span>
-                </div>
-              </div>
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(offices[activeOffice].mapQuery)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute top-4 right-4 inline-flex items-center gap-2 bg-primary text-white text-sm font-bold px-5 py-3 rounded-full shadow-lg hover:bg-neutral transition-colors"
+              >
+                <MapPin className="w-4 h-4" /> Get Directions
+              </a>
             </div>
           </div>
         </div>

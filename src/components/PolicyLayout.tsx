@@ -114,9 +114,9 @@ export const PolicyLayout = ({ title, description, intro, lastUpdated, sections 
                 Contact Skyroot Real Estate Ltd and our team will get back to you as soon as possible.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-                <a href="mailto:info@skyrootre.com" className="flex items-center gap-3 text-white/80 hover:text-primary transition-colors">
+                <a href="mailto:info@skyyroot.com" className="flex items-center gap-3 text-white/80 hover:text-primary transition-colors">
                   <span className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shrink-0"><Mail className="w-5 h-5 text-white" /></span>
-                  info@skyrootre.com
+                  info@skyyroot.com
                 </a>
                 <a href="tel:+8801818100503" className="flex items-center gap-3 text-white/80 hover:text-primary transition-colors">
                   <span className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shrink-0"><Phone className="w-5 h-5 text-white" /></span>

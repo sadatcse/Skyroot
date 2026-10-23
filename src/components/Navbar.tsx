@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '../lib/utils';
-// import Logo from '../assets/logo.svg';
 
 import Logo from '../assets/skyyroot-logo.svg';
 
