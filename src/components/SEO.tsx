@@ -18,8 +18,8 @@ const absolute = (path: string) => (/^https?:\/\//.test(path) ? path : `${SITE_U
 
 export default function SEO({
     title,
-    description = 'SKYROOT - Providing premium services for our real estate clients with excellence and care.',
-    name = 'SKYROOT',
+    description = 'SKYYROOT - Providing premium services for our real estate clients with excellence and care.',
+    name = 'SKYYROOT',
     type = 'website',
     image = '/projects/consultancy/ft-mahatab-tower/01.jpg',
     url,

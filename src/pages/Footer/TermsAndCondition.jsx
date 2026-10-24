@@ -57,7 +57,7 @@ const sections = [
         id: 'intellectual-property',
         title: 'Intellectual Property',
         body: [
-            'All content on this website, including the Skyroot name and logo, text, designs, drawings, renders, photographs and videos, is owned by or licensed to Skyyroot Real Estate Ltd and is protected by copyright and trademark laws. You may not use it without our prior written consent.',
+            'All content on this website, including the Skyyroot name and logo, text, designs, drawings, renders, photographs and videos, is owned by or licensed to Skyyroot Real Estate Ltd and is protected by copyright and trademark laws. You may not use it without our prior written consent.',
         ],
     },
     {

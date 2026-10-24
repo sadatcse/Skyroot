@@ -56,15 +56,15 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
                 <span>
-                  <span className="block text-white font-semibold">Aftab Nagar Branch</span>
-                  Sector 1, Road 4, House 12, Aftab Nagar, Dhaka - 1212, Bangladesh
+                  <span className="block text-white font-semibold">Aftab Nagar Office</span>
+                  House 20 (1st Floor), Block F, Road 01, Sector 01, Jahurul Islam City, Aftab Nagar, Badda, Dhaka 1212, Bangladesh
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
                 <span>
-                  <span className="block text-white font-semibold">Mohammadpur Branch</span>
-                  Block C, Zakir Hossain Road, Mohammadpur, Dhaka - 1207, Bangladesh
+                  <span className="block text-white font-semibold">Mohammadpur Office</span>
+                  House 23/C (Ground Floor), Road 11, P.C Culture Housing, Mohammadpur, Dhaka 1207, Bangladesh
                 </span>
               </li>
               <li className="flex items-center gap-3">

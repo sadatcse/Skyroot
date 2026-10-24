@@ -1,5 +1,5 @@
 🏗️ Skyyroot Real Estate Ltd
-Skyroot is a modern, high-performance real estate platform built with React 19, Vite, and Tailwind CSS 4. It features smooth animations with Framer Motion, a powerful AI assistant powered by Google Gemini, and a responsive UI using DaisyUI.
+Skyyroot is a modern, high-performance real estate platform built with React 19, Vite, and Tailwind CSS 4. It features smooth animations with Framer Motion, a powerful AI assistant powered by Google Gemini, and a responsive UI using DaisyUI.
 
 🔗 Live Demo: https://skyroot-two.vercel.app/
 

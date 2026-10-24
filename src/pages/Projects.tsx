@@ -42,7 +42,7 @@ export const Projects = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEO title="Our Portfolio" description="Discover Skyroot's commitment to architectural excellence and sustainable urban development through our diverse range of world-class residential and commercial projects." />
+      <SEO title="Our Portfolio" description="Discover Skyyroot's commitment to architectural excellence and sustainable urban development through our diverse range of world-class residential and commercial projects." />
       {/* Page Header */}
       <section className="relative bg-neutral py-24 px-6 lg:px-10 overflow-hidden">
         {/* Header background: drop the image at public/headers/projects.jpg (falls back to solid colour) */}
@@ -56,7 +56,7 @@ export const Projects = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <h1 className="text-5xl md:text-6xl font-black text-primary mb-6">Our Portfolio</h1>
           <p className="text-white/60 text-xl max-w-2xl leading-relaxed">
-            Discover Skyroot's commitment to architectural excellence and sustainable urban development through our diverse range of world-class residential and commercial projects.
+            Discover Skyyroot's commitment to architectural excellence and sustainable urban development through our diverse range of world-class residential and commercial projects.
           </p>
         </div>
       </section>
@@ -183,10 +183,10 @@ export const Projects = () => {
           <div className="p-12 md:p-20 space-y-8">
             <div className="space-y-2">
               <div className="text-primary text-xs font-bold uppercase tracking-[0.2em]">Ongoing Flagship</div>
-              <h2 className="text-4xl font-black text-neutral">Skyroot Horizon</h2>
+              <h2 className="text-4xl font-black text-neutral">Skyyroot Horizon</h2>
             </div>
             <p className="text-base-content/70 leading-relaxed">
-              Experience the pinnacle of luxury living in our most ambitious project yet. Skyroot Horizon brings ultra-luxury apartments with panoramic views of the Gulshan Lake and smart home integration.
+              Experience the pinnacle of luxury living in our most ambitious project yet. Skyyroot Horizon brings ultra-luxury apartments with panoramic views of the Gulshan Lake and smart home integration.
             </p>
             <div className="flex flex-wrap gap-8">
               <div className="flex items-center gap-3">
@@ -205,7 +205,7 @@ export const Projects = () => {
           <div className="h-full min-h-100">
             <img
               src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80"
-              alt="Skyroot Horizon"
+              alt="Skyyroot Horizon"
               className="w-full h-full object-cover"
             />
           </div>

@@ -70,7 +70,7 @@ export const Home = () => {
             Ready to build your future?
           </h2>
           <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-            From concept to completion, Skyroot is your partner in creating spaces that inspire. Let's discuss your vision today.
+            From concept to completion, Skyyroot is your partner in creating spaces that inspire. Let's discuss your vision today.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">

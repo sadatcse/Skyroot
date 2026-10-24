@@ -5,15 +5,15 @@ import SEO from '../components/SEO';
 
 const offices = [
   {
-    name: 'Aftab Nagar Branch',
-    address: 'Sector 1, Road 4, House 12, Aftab Nagar, Dhaka - 1212, Bangladesh',
-    mapQuery: 'Aftab Nagar, Dhaka 1212, Bangladesh',
+    name: 'Aftab Nagar Office',
+    address: 'House 20 (1st Floor), Block F, Road 01, Sector 01, Jahurul Islam City, Aftab Nagar, Badda, Dhaka 1212, Bangladesh',
+    mapQuery: '20 Road 1, Block F, Aftab Nagar, Dhaka 1212, Bangladesh',
     image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=200&q=80',
   },
   {
-    name: 'Mohammadpur Branch',
-    address: 'Block C, Zakir Hossain Road, Mohammadpur, Dhaka - 1207, Bangladesh',
-    mapQuery: 'Zakir Hossain Road, Block C, Mohammadpur, Dhaka 1207, Bangladesh',
+    name: 'Mohammadpur Office',
+    address: 'House 23/C (Ground Floor), Road 11, P.C Culture Housing, Mohammadpur, Dhaka 1207, Bangladesh',
+    mapQuery: '23/C Road 11, PC Culture Housing, Mohammadpur, Dhaka 1207, Bangladesh',
     image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=200&q=80',
   },
 ];
@@ -60,7 +60,7 @@ export const Contact = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEO title="Contact Us" description="Reach out to the dedicated Skyroot team for expert real estate guidance and inquiries." />
+      <SEO title="Contact Us" description="Reach out to the dedicated Skyyroot team for expert real estate guidance and inquiries." />
       {/* Hero Section */}
       <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -94,7 +94,7 @@ export const Contact = () => {
                 <CheckCircle className="w-6 h-6 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-base">Inquiry Submitted Successfully!</h4>
-                  <p className="text-sm text-emerald-700 mt-1">Thank you for reaching out. A representative from the Skyroot team will contact you shortly.</p>
+                  <p className="text-sm text-emerald-700 mt-1">Thank you for reaching out. A representative from the Skyyroot team will contact you shortly.</p>
                 </div>
               </div>
             )}

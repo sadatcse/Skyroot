@@ -13,7 +13,7 @@ export const ClientTestimonials = () => {
 
   return (
     <div className="bg-white">
-      <SEO title="Client Testimonials" description="Trust built over generations. See what our partners and families have to say about finding their place with Skyroot." />
+      <SEO title="Client Testimonials" description="Trust built over generations. See what our partners and families have to say about finding their place with Skyyroot." />
       {/* Header Section */}
       <section className="pt-32 pb-20 px-6 text-center bg-white">
         <div className="max-w-7xl mx-auto">
@@ -72,7 +72,7 @@ export const ClientTestimonials = () => {
             </span>
             <h2 className="text-4xl font-bold text-neutral mb-4">What Our Partners Say</h2>
             <p className="text-gray-500 max-w-2xl mx-auto">
-              Hear from the families and businesses who found their place with Skyroot.
+              Hear from the families and businesses who found their place with Skyyroot.
             </p>
           </div>
 
@@ -144,7 +144,7 @@ export const ClientTestimonials = () => {
             Ready to Start Your Journey?
           </h2>
           <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
-            Join the hundreds of satisfied families and businesses who have chosen Skyroot for their future.
+            Join the hundreds of satisfied families and businesses who have chosen Skyyroot for their future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

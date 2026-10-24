@@ -8,7 +8,7 @@ export const AIAssistant = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   // Removed the <{ role: 'user' | 'bot', content: string }[]> type annotation
   const [messages, setMessages] = React.useState([
-    { role: 'bot', content: 'Hello! I am your Skyroot Assistant. How can I help you today with our real estate projects?' }
+    { role: 'bot', content: 'Hello! I am your Skyyroot Assistant. How can I help you today with our real estate projects?' }
   ]);
   const [input, setInput] = React.useState('');
   const [isLoading, setIsLoading] = React.useState(false);
@@ -35,7 +35,7 @@ export const AIAssistant = () => {
         model: "gemini-3-flash-preview",
         contents: userMessage,
         config: {
-          systemInstruction: "You are a helpful real estate assistant for Skyyroot Real Estate Ltd. You provide information about their ongoing projects (Skyroot Horizon, Apex Plaza, Mirage Gardens), their mission (structural integrity and innovation), and their leadership (Ar. Shahed Al Mamun). Be professional, polite, and encouraging. If you don't know something, suggest contacting the sales team at info@skyyroot.com.",
+          systemInstruction: "You are a helpful real estate assistant for Skyyroot Real Estate Ltd. You provide information about their ongoing projects (Skyyroot Horizon, Apex Plaza, Mirage Gardens), their mission (structural integrity and innovation), and their leadership (Ar. Shahed Al Mamun). Be professional, polite, and encouraging. If you don't know something, suggest contacting the sales team at info@skyyroot.com.",
         }
       });
 
@@ -65,7 +65,7 @@ export const AIAssistant = () => {
                   <Bot className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="font-bold text-sm">Skyroot Assistant</div>
+                  <div className="font-bold text-sm">Skyyroot Assistant</div>
                   <div className="text-[10px] text-accent flex items-center gap-1">
                     <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse"></span> Online
                   </div>

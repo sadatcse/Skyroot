@@ -47,7 +47,7 @@ export const About = () => {
             transition={{ delay: 0.2 }}
             className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed font-light"
           >
-            At Skyroot, we don't just construct buildings; we curate lifestyles.
+            At Skyyroot, we don't just construct buildings; we curate lifestyles.
             Rooted in trust and rising to the sky, we are redefining the urban landscape of Bangladesh.
           </motion.p>
         </div>
@@ -66,7 +66,7 @@ export const About = () => {
                 Over the past 18 years, we have successfully delivered over 50 landmark projects, each standing as a testament to our commitment to quality. From residential havens in Gulshan to commercial hubs in Banani, our footprint is etched in the city's skyline.
               </p>
               <p>
-                We believe that a home is more than just walls; it's a sanctuary. That's why every Skyroot project is designed with a human-centric approach, prioritizing light, air, and community.
+                We believe that a home is more than just walls; it's a sanctuary. That's why every Skyyroot project is designed with a human-centric approach, prioritizing light, air, and community.
               </p>
             </div>
 
@@ -86,7 +86,7 @@ export const About = () => {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="Skyroot Building"
+                alt="Skyyroot Building"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -128,7 +128,7 @@ export const About = () => {
               </div>
 
               <blockquote className="text-xl text-gray-600 italic leading-relaxed border-l-4 border-primary pl-6">
-                "Architecture is not just about buildings; it's about the souls that inhabit them. At Skyroot, our design philosophy revolves around the harmony between structural precision and human comfort. Every blueprint we sign is a promise of quality and a commitment to urban progress."
+                "Architecture is not just about buildings; it's about the souls that inhabit them. At Skyyroot, our design philosophy revolves around the harmony between structural precision and human comfort. Every blueprint we sign is a promise of quality and a commitment to urban progress."
               </blockquote>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6">

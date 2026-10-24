@@ -77,7 +77,7 @@ export const Testimonials = () => {
               Voices of Trust
             </h2>
             <p className="text-neutral/50 mt-4 text-base md:text-lg leading-relaxed">
-              Homeowners and business leaders share what it's like to build with Skyroot.
+              Homeowners and business leaders share what it's like to build with Skyyroot.
             </p>
           </div>
 

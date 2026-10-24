@@ -61,7 +61,7 @@ export const WhyChooseUs = () => {
               transition={{ duration: 0.6 }}
             >
               <span className="text-blue-600 font-bold tracking-widest text-sm uppercase mb-4 block">
-                Why Choose Skyroot?
+                Why Choose Skyyroot?
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
                 Building Beyond <br />
