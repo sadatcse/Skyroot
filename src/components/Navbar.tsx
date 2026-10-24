@@ -22,7 +22,7 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 bg-base-100/80 backdrop-blur-md border-b border-base-content/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
         <Link to="/" className="relative inline-block group transition-transform duration-300 hover:scale-105">
-          <img src={Logo} alt="Skyroot Real Estate Ltd" className="block h-20 w-auto" />
+          <img src={Logo} alt="Skyyroot Real Estate Ltd" className="block h-20 w-auto" />
           <span
             aria-hidden="true"
             className="logo-shine"

@@ -58,8 +58,8 @@ const CookiesPolicy = () => {
     return (
         <PolicyLayout
             title="Cookies Policy"
-            description="How Skyroot Real Estate Ltd uses cookies and similar technologies on its website."
-            intro="This policy explains what cookies are, which cookies we use on the Skyroot Real Estate Ltd website, and how you can manage them."
+            description="How Skyyroot Real Estate Ltd uses cookies and similar technologies on its website."
+            intro="This policy explains what cookies are, which cookies we use on the Skyyroot Real Estate Ltd website, and how you can manage them."
             lastUpdated="October 23, 2026"
             sections={sections}
         />

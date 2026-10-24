@@ -16,7 +16,7 @@ const content = {
   en: {
     subtitle: "ABOUT US",
     title: "REDEFINING YOUR STANDARD OF LIVING",
-    p1: "Skyroot Real Estate Ltd was founded in 2009 with the aim to enhance aspects of life for people by providing powerful brands, reliable products and a wide range of services. It ventured into the real estate sector in 2015 with its 'dream team' dedicated to merge value and innovation in the evolving real estate sector of Bangladesh. Through considerable focus on design, structural dimension, and feasibility in the sense of space and resource conservation; as well as environmental soundness; we deliver you optimum support in residential and commercial accommodation.",
+    p1: "Skyyroot Real Estate Ltd was founded in 2009 with the aim to enhance aspects of life for people by providing powerful brands, reliable products and a wide range of services. It ventured into the real estate sector in 2015 with its 'dream team' dedicated to merge value and innovation in the evolving real estate sector of Bangladesh. Through considerable focus on design, structural dimension, and feasibility in the sense of space and resource conservation; as well as environmental soundness; we deliver you optimum support in residential and commercial accommodation.",
     p2: "Conjoining the expertise of different fields to develop and bring in the quintessence of contemporary lifestyle, we provide distinguished services and strictly maintain project handover deadlines. We assure you to be your most reliable developer in Dhaka in terms of integrity and credibility.",
     button: "Learn More",
     videoTitle: "The Biggest Developer",
@@ -128,7 +128,7 @@ export const AboutVideoSection = () => {
                 className="w-full h-full object-cover rounded-md shadow-lg bg-black"
                 src="/videos/skyroot-intro.mp4"
                 poster="/videos/skyroot-intro-poster.jpg"
-                title="Skyroot Real Estate Ltd Video"
+                title="Skyyroot Real Estate Ltd Video"
                 controls
                 autoPlay
                 playsInline

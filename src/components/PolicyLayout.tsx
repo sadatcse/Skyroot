@@ -111,7 +111,7 @@ export const PolicyLayout = ({ title, description, intro, lastUpdated, sections 
             <div className="rounded-3xl bg-neutral text-white p-8 md:p-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-3">Questions about this policy?</h2>
               <p className="text-white/60 mb-8 max-w-2xl">
-                Contact Skyroot Real Estate Ltd and our team will get back to you as soon as possible.
+                Contact Skyyroot Real Estate Ltd and our team will get back to you as soon as possible.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
                 <a href="mailto:info@skyyroot.com" className="flex items-center gap-3 text-white/80 hover:text-primary transition-colors">

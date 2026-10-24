@@ -6,7 +6,7 @@ const sections = [
         id: 'scope',
         title: 'Scope',
         body: [
-            'This policy applies to booking money, down payments and installments paid to Skyroot Real Estate Ltd for apartments, commercial spaces and other properties. The specific terms in your signed allotment letter or sale agreement will prevail over this general policy.',
+            'This policy applies to booking money, down payments and installments paid to Skyyroot Real Estate Ltd for apartments, commercial spaces and other properties. The specific terms in your signed allotment letter or sale agreement will prevail over this general policy.',
         ],
     },
     {
@@ -27,7 +27,7 @@ const sections = [
         id: 'cancellation-by-company',
         title: 'Cancellation by the Company',
         body: [
-            'Skyroot Real Estate Ltd may cancel an allotment if the customer repeatedly fails to pay installments on time as per the payment schedule, after giving written notice. In such cases the amount paid will be refunded after deducting the charges stated in the sale agreement.',
+            'Skyyroot Real Estate Ltd may cancel an allotment if the customer repeatedly fails to pay installments on time as per the payment schedule, after giving written notice. In such cases the amount paid will be refunded after deducting the charges stated in the sale agreement.',
             'If we are unable to deliver the property due to reasons solely attributable to us, the full amount paid will be refunded.',
         ],
     },
@@ -87,8 +87,8 @@ const RefundPolicy = () => {
     return (
         <PolicyLayout
             title="Refund Policy"
-            description="Cancellation and refund terms for bookings, installments and services with Skyroot Real Estate Ltd."
-            intro="We want every customer to buy with confidence. This policy explains how cancellations and refunds work for property bookings, installments and consultancy services with Skyroot Real Estate Ltd."
+            description="Cancellation and refund terms for bookings, installments and services with Skyyroot Real Estate Ltd."
+            intro="We want every customer to buy with confidence. This policy explains how cancellations and refunds work for property bookings, installments and consultancy services with Skyyroot Real Estate Ltd."
             lastUpdated="October 23, 2026"
             sections={sections}
         />

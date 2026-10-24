@@ -6,7 +6,7 @@ const sections = [
         id: 'acceptance',
         title: 'Acceptance of Terms',
         body: [
-            'By accessing or using the Skyroot Real Estate Ltd website, you agree to these Terms of Service. If you do not agree, please do not use the website.',
+            'By accessing or using the Skyyroot Real Estate Ltd website, you agree to these Terms of Service. If you do not agree, please do not use the website.',
         ],
     },
     {
@@ -28,7 +28,7 @@ const sections = [
         id: 'bookings',
         title: 'Bookings and Agreements',
         body: [
-            'Any booking, allotment or purchase of a property is governed by the separate application form, allotment letter and sale agreement signed between you and Skyroot Real Estate Ltd. If there is any conflict between these Terms and a signed agreement, the signed agreement will prevail.',
+            'Any booking, allotment or purchase of a property is governed by the separate application form, allotment letter and sale agreement signed between you and Skyyroot Real Estate Ltd. If there is any conflict between these Terms and a signed agreement, the signed agreement will prevail.',
         ],
     },
     {
@@ -57,7 +57,7 @@ const sections = [
         id: 'intellectual-property',
         title: 'Intellectual Property',
         body: [
-            'All content on this website, including the Skyroot name and logo, text, designs, drawings, renders, photographs and videos, is owned by or licensed to Skyroot Real Estate Ltd and is protected by copyright and trademark laws. You may not use it without our prior written consent.',
+            'All content on this website, including the Skyroot name and logo, text, designs, drawings, renders, photographs and videos, is owned by or licensed to Skyyroot Real Estate Ltd and is protected by copyright and trademark laws. You may not use it without our prior written consent.',
         ],
     },
     {
@@ -71,7 +71,7 @@ const sections = [
         id: 'liability',
         title: 'Limitation of Liability',
         body: [
-            'We try to keep the information on this website accurate and up to date, but we do not guarantee that it is complete, error-free or always available. To the extent permitted by law, Skyroot Real Estate Ltd is not liable for any loss arising from the use of, or reliance on, this website.',
+            'We try to keep the information on this website accurate and up to date, but we do not guarantee that it is complete, error-free or always available. To the extent permitted by law, Skyyroot Real Estate Ltd is not liable for any loss arising from the use of, or reliance on, this website.',
         ],
     },
     {
@@ -94,8 +94,8 @@ const TermsAndCondition = () => {
     return (
         <PolicyLayout
             title="Terms of Service"
-            description="Terms and conditions for using the Skyroot Real Estate Ltd website and services."
-            intro="These terms explain the rules for using the Skyroot Real Estate Ltd website and how the information on it should be understood. Please read them carefully."
+            description="Terms and conditions for using the Skyyroot Real Estate Ltd website and services."
+            intro="These terms explain the rules for using the Skyyroot Real Estate Ltd website and how the information on it should be understood. Please read them carefully."
             lastUpdated="October 23, 2026"
             sections={sections}
         />

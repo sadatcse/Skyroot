@@ -6,7 +6,7 @@ import mdPhoto from '../assets/Team/shahed-al-mamun.jpg';
 export const About = () => {
   return (
     <div className="min-h-screen bg-white overflow-hidden">
-      <SEO title="About Us" description="Learn about Skyroot Real Estate Ltd. Building legacies and crafting dreams since 2008." />
+      <SEO title="About Us" description="Learn about Skyyroot Real Estate Ltd. Building legacies and crafting dreams since 2008." />
       {/* Hero Section */}
       <section className="relative py-32 lg:py-48 bg-neutral text-white overflow-hidden">
         {/* Header background: drop the image at public/headers/about.jpg (falls back to solid colour) */}
@@ -60,7 +60,7 @@ export const About = () => {
             <h2 className="text-4xl font-bold text-primary">Our Story</h2>
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                Founded in 2008, Skyroot Real Estate Ltd began with a singular vision: to bring world-class architectural standards to the heart of Dhaka. What started as a boutique firm has grown into a premier developer known for structural integrity and aesthetic finesse.
+                Founded in 2008, Skyyroot Real Estate Ltd began with a singular vision: to bring world-class architectural standards to the heart of Dhaka. What started as a boutique firm has grown into a premier developer known for structural integrity and aesthetic finesse.
               </p>
               <p>
                 Over the past 18 years, we have successfully delivered over 50 landmark projects, each standing as a testament to our commitment to quality. From residential havens in Gulshan to commercial hubs in Banani, our footprint is etched in the city's skyline.
@@ -111,7 +111,7 @@ export const About = () => {
             <div className="lg:w-2/5 h-125 lg:h-auto relative">
               <img
                 src={mdPhoto}
-                alt="Ar. Shahed Al Mamun, Managing Director of Skyroot Real Estate Ltd"
+                alt="Ar. Shahed Al Mamun, Managing Director of Skyyroot Real Estate Ltd"
                 className="w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent lg:hidden"></div>

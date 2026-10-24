@@ -13,7 +13,7 @@ import { Testimonials } from '../components/Testimonials';
 export const Home = () => {
   return (
     <div className="overflow-hidden">
-      <SEO title="Home" description="Skyroot Real Estate Ltd - Providing premium services for our real estate clients with excellence and care." />
+      <SEO title="Home" description="Skyyroot Real Estate Ltd - Providing premium services for our real estate clients with excellence and care." />
 
       {/* Hero Section */}
       <HeroSlider />

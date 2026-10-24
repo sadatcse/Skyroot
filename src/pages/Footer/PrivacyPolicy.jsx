@@ -106,8 +106,8 @@ const PrivacyPolicy = () => {
     return (
         <PolicyLayout
             title="Privacy Policy"
-            description="How Skyroot Real Estate Ltd collects, uses and protects your personal information."
-            intro="Skyroot Real Estate Ltd respects your privacy. This policy explains what information we collect when you visit our website or deal with us, how we use it, and the choices you have."
+            description="How Skyyroot Real Estate Ltd collects, uses and protects your personal information."
+            intro="Skyyroot Real Estate Ltd respects your privacy. This policy explains what information we collect when you visit our website or deal with us, how we use it, and the choices you have."
             lastUpdated="October 23, 2026"
             sections={sections}
         />

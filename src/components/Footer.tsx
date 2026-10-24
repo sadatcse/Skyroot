@@ -16,7 +16,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <img src={Logo} alt="Skyroot Real Estate Ltd" className="h-28 w-auto" />
+              <img src={Logo} alt="Skyyroot Real Estate Ltd" className="h-28 w-auto" />
             </div>
             <p className="text-base-100/60 text-sm leading-relaxed">
               A premier corporate real estate developer dedicated to structural excellence and urban innovation. Setting the benchmark for over 15 years.
@@ -26,7 +26,7 @@ export const Footer = () => {
                 href="https://www.facebook.com/SkyyrootRealEstate"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Skyroot Real Estate Ltd on Facebook"
+                aria-label="Skyyroot Real Estate Ltd on Facebook"
                 className="p-2 bg-primary rounded-full hover:bg-white hover:text-primary transition-colors"
               >
                 <Facebook className="w-4 h-4" />
@@ -99,7 +99,7 @@ export const Footer = () => {
         <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-base-100/60 text-xs">
             {/* Added dynamic year here as a bonus! */}
-            © {new Date().getFullYear()} Skyroot Real Estate Ltd. All rights reserved.
+            © {new Date().getFullYear()} Skyyroot Real Estate Ltd. All rights reserved.
           </p>
           <div className="flex gap-8 text-xs text-base-100/60">
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
